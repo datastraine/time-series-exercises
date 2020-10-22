@@ -1,0 +1,6 @@
+.ipynb_checkpoints/*
+env.py
+*.csv
+__pycache__/
+*_lesson.*
+student
