@@ -52,7 +52,7 @@ def all_zach_data():
     sales = pd.read_csv('sales.csv')
     items = pd.read_csv('items.csv')
     stores = pd.read_csv('stores.csv')
-    full = sales.merge(store, left_on='store', right_on='store_id')
+    full = sales.merge(stores, left_on='store', right_on='store_id')
     full = full.merge(items, left_on='item', right_on='item_id')
     return full
     
