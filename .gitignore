@@ -4,4 +4,4 @@ env.py
 __pycache__/
 *_lesson.*
 student
-.txt
+*.txt
